@@ -1,1 +1,1 @@
-# liferay-sample-app-deployment
+# lexicon-test-deployment

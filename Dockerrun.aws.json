@@ -1,0 +1,31 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "authentication": {
+    "bucket": "liferaydev-docker-credentials-lexicon-test",
+    "key": "dockercfg"
+  },
+  "volumes": [
+  ],
+  "containerDefinitions": [
+    {
+      "name": "lexicon-test",
+      "image": "rubenpulido/lexicon-test:20161024T133758Z",
+      "essential": true,
+      "memory": 4096,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 8080
+        },
+        {
+          "hostPort": 5005,
+          "containerPort": 5005
+        },
+        {
+          "hostPort": 11311,
+          "containerPort": 11311
+        }
+      ]
+    }
+  ]
+}

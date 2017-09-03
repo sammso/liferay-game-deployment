@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": 2,
   "authentication": {
-    "bucket": "liferaydev-docker-credentials-lexicon-test",
+    "bucket": "docker-credentials-lexicon-test",
     "key": "dockercfg"
   },
   "volumes": [

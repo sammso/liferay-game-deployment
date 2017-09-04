@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": 2,
   "authentication": {
-    "bucket": "docker-credentials-lexicon-test",
+    "bucket": "codepipeline-lexicon-test",
     "key": "dockercfg"
   },
   "volumes": [

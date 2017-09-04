@@ -2,6 +2,8 @@ branch-defaults:
   default:
     environment: lexicon-test-dev
     group_suffix: null
+  master:
+    environment: lexicon-test-dev
 global:
   application_name: lexicon-test
   branch: master

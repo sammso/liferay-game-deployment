@@ -8,7 +8,7 @@
 	"containerDefinitions": [
 		{
 			"name": "lexicon-test",
-			"image": "epgarcia/lexicon-test-4:20170914T230513Z",
+			"image": "epgarcia/lexicon-test:20170915T123608Z",
 			"essential": true,
 			"memory": 4096,
 			"portMappings": [

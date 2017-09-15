@@ -1,30 +1,30 @@
 {
-	"AWSEBDockerrunVersion": 2,
-	"authentication": {
-		"bucket": "codepipeline-lexicon-test",
-		"key": "dockercfg"
-	},
-	"volumes": [],
-	"containerDefinitions": [
-		{
-			"name": "lexicon-test",
-			"image": "epgarcia/lexicon-test:20170915T123608Z",
-			"essential": true,
-			"memory": 4096,
-			"portMappings": [
-				{
-					"hostPort": 80,
-					"containerPort": 8080
-				},
-				{
-					"hostPort": 5005,
-					"containerPort": 5005
-				},
-				{
-					"hostPort": 11311,
-					"containerPort": 11311
-				}
-			]
-		}
-	]
+  "AWSEBDockerrunVersion": 2,
+  "authentication": {
+    "bucket": "codepipeline-lexicon-test-6",
+    "key": "dockercfg"
+  },
+  "volumes": [],
+  "containerDefinitions": [
+    {
+      "name": "lexicon-test-6",
+      "image": "epgarcia/lexicon-test:20170915T123608Z",
+      "essential": true,
+      "memory": 4096,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 8080
+        },
+        {
+          "hostPort": 5005,
+          "containerPort": 5005
+        },
+        {
+          "hostPort": 11311,
+          "containerPort": 11311
+        }
+      ]
+    }
+  ]
 }

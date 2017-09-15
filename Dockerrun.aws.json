@@ -1,14 +1,14 @@
 {
   "AWSEBDockerrunVersion": 2,
   "authentication": {
-    "bucket": "codepipeline-lexicon-test-7",
+    "bucket": "codepipeline-lexicon-test-8",
     "key": "dockercfg"
   },
   "volumes": [],
   "containerDefinitions": [
     {
-      "name": "lexicon-test-7",
-      "image": "rubenpulido/lexicon-test:20170915T123608Z",
+      "name": "lexicon-test-8",
+      "image": "rubenpulido/lexicon-test-8:20170915T175552Z",
       "essential": true,
       "memory": 4096,
       "portMappings": [

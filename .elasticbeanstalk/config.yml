@@ -5,7 +5,7 @@ branch-defaults:
   master:
     environment: lexicon-test-dev
 global:
-  application_name: lexicon-test-8
+  application_name: lexicon-test-9
   branch: master
   default_ec2_keyname: aws-eb
   default_platform: Multi-container Docker 1.12.6 (Generic)

@@ -1,14 +1,14 @@
 {
   "AWSEBDockerrunVersion": 2,
   "authentication": {
-    "bucket": "codepipeline-lexicon-test-9",
+    "bucket": "codepipeline-liferay-game-9",
     "key": "dockercfg"
   },
   "volumes": [],
   "containerDefinitions": [
     {
-      "name": "lexicon-test-9",
-      "image": "rubenpulido/lexicon-test-9:20170915T175552Z",
+      "name": "liferay-game-9",
+      "image": "rubenpulido/liferay-game-9:20170915T175552Z",
       "essential": true,
       "memory": 4096,
       "portMappings": [

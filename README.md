@@ -1,1 +1,1 @@
-# lexicon-test-deployment
+# liferay-game-deployment

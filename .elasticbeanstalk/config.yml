@@ -1,11 +1,11 @@
 branch-defaults:
   default:
-    environment: lexicon-test-dev
+    environment: liferay-game-dev
     group_suffix: null
   master:
-    environment: lexicon-test-dev
+    environment: liferay-game-dev
 global:
-  application_name: lexicon-test-9
+  application_name: liferay-game-9
   branch: master
   default_ec2_keyname: aws-eb
   default_platform: Multi-container Docker 1.12.6 (Generic)

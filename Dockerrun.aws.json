@@ -8,7 +8,7 @@
   "containerDefinitions": [
     {
       "name": "liferay-game-1",
-      "image": "chipironlabs/liferay-game-1:20170920T162613Z",
+      "image": "chipironlabs/liferay-game-1:20170920T171648Z",
       "essential": true,
       "memory": 4096,
       "portMappings": [

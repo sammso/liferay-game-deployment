@@ -5,7 +5,7 @@ branch-defaults:
   master:
     environment: liferay-game-dev
 global:
-  application_name: liferay-game-1
+  application_name: liferay-game-2
   branch: master
   default_ec2_keyname: aws-eb
   default_platform: Multi-container Docker 1.12.6 (Generic)

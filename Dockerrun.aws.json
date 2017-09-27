@@ -1,14 +1,14 @@
 {
   "AWSEBDockerrunVersion": 2,
   "authentication": {
-    "bucket": "codepipeline-liferay-game-7",
+    "bucket": "codepipeline-liferay-game-8",
     "key": "dockercfg"
   },
   "volumes": [],
   "containerDefinitions": [
     {
-      "name": "liferay-game-7",
-      "image": "chipironlabs/liferay-game-7:20170927T151420Z",
+      "name": "liferay-game-8",
+      "image": "chipironlabs/liferay-game-8:20170927T155521Z",
       "essential": true,
       "memory": 4096,
       "portMappings": [

@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": 2,
   "authentication": {
-    "bucket": "codepipeline-liferay-game",
+    "bucket": "codepipeline-sammso-liferay-game",
     "key": "dockercfg"
   },
   "volumes": [],

@@ -7,8 +7,8 @@
   "volumes": [],
   "containerDefinitions": [
     {
-      "name": "liferay-game",
-      "image": "sohlman/sammso-liferay-game:20171027T132113Z",
+      "name": "sammso-liferay-game",
+      "image": "sohlman/sammso-liferay-game:20171028T152556Z",
       "essential": true,
       "memory": 4096,
       "portMappings": [
